@@ -1,0 +1,68 @@
+.container {
+    max-width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+table:hover {
+    transform: scale(1.02);
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.tabla1 {
+    background-color: #ffebcc;
+    border: 2px solid #ff9800;
+}
+
+.tabla2 {
+    background-color: #dcedc8;
+    border: 2px solid #4caf50;
+}
+
+.tabla3 {
+    background-color: #bbdefb;
+    border: 2px solid #2196f3;
+}
+
+.tabla4 {
+    background-color: #f8bbd0;
+    border: 2px solid #e91e63;
+}
+
+.tabla1 td {
+    border: 1px solid #ff9800;
+}
+
+.tabla2 td {
+    border: 1px solid #4caf50;
+}
+
+.tabla3 td {
+    border: 1px solid #2196f3;
+}
+
+.tabla4 td {
+    border: 1px solid #e91e63;
+}
+
